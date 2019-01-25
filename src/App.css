@@ -1,32 +1,229 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+.corp{
+    height:200px;
+    margin-left:200px;
+    font-family: 'Kreon', serif;
+    margin-top:100px
+}
+h1{
+    display:inline;
+    text-decoration: none
+}
+.nav{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between
+}
+.logo{
+    border-right: 2px solid;
+    padding-right: 25px;
+    text-decoration: none
+}
+.register{
+    border-left: 1px solid;
+    display: flex
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.option{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px
+}
+.butt{
+    width: 100px;
+    height: 40px;
+    font-weight: 200;
+    font-size: 18px;
+    color:black;
+    background-color: transparent;
+    font-family: sans-serif 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#host{
+    color:#005F91
+}
+.serv{
+    text-align: center;
+    background-image: url('https://i.imgur.com/Av12kLU.png');
+    color:white;
+    padding: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: kreon,serif;
+    font-weight: 100
+ 
+}
+h2{
+    color:white
 }
 
-.App-link {
-  color: #61dafb;
+#city{
+    color:#929496;
+    font-size: 20px
+}
+.event{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#on{
+    color:#EB4A80;
+    font-size: 35px
+}
+#off{
+    color:#58A1F9;
+    font-size: 35px
+}
+.home-search__form__input {
+    margin: 0;
+    width: 180px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: Kreon,serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+input {
+    overflow: visible;
+    padding-left: 30px
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
+.topic{
+    background-color: #00939E
+}
+button{
+    width: 350px;
+    height: 60px;
+    background-color: #31C0C4;
+    color: #ffffff;
+    font-family: 'Kreon', serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border:#fff solid;
+    cursor: pointer;
+}
+.news-letter{
+    background-color: #00939E;
+    height: 290px;
+    font-family: Kreon,serif;
+    font-weight: 300;
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    padding-top:20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#url{
+    width: 300px;
+    height: 50px;
+    background-color:#00939E;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: kreon,serif;
+    border-radius: 5px; 
+    border: #fff solid
+
+    }
+    #url::placeholder {
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+#subscribe{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border:solid white;
+    border-radius: 5px; 
+    margin-left: 50px;
+    text-align: center;
+    font-family: kreon,serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    padding: 10px
+
+}
+.footer{
+    background-color: #242D2D;
+    display: flex;
+     height: 100px;
+     text-align: center;
+     justify-content: center;
+     align-items: center
+}
+.footer p{
+    color:white;
+    font-weight: 300;
+}
+.decription{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%
+}
+.form-group{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-family: kreon,serif;
+    font-size: 18px;
+    font-weight: 200;
+    
+}
+.form{
+    flex-direction: column;
+    border: #00939E;
+    border-radius: 5px
+    
+}
+.label-control{
+  text-align: start;padding: 10px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control{
+    border:2px solid #00939E;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+}
+.signup-forms{
+border: 2px solid whitesmoke ;
+display: flex;
+margin: 40px 500px ;
+width: 420px;
+height: 500px;
+border-radius: 10px
+
+}
+.login-form{
+border: 2px solid whitesmoke ;
+margin: 40px 500px ;
+flex-direction: column;
+border-radius: 10px;
+height: 400px;
+
+}
+.label-desc{
+    font-family: kreon,serif;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column
+}
+.input-desc{
+    border:2px solid #00939E;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
 }

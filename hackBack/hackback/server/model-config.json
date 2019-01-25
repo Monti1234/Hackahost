@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "event": {
+    "dataSource": "db",
+    "public": true
+  },
+  "topics": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AI": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Blockchain": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Industry": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Fintech": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Bigdata": {
+    "dataSource": "db",
+    "public": true
+  },
+  "IOT": {
+    "dataSource": "db",
+    "public": true
+  },
+  "nonProfit": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Energy": {
+    "dataSource": "db",
+    "public": true
+  }
+}

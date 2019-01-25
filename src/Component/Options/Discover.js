@@ -1,0 +1,20 @@
+import React from 'react'
+
+function Discover() {
+  return (
+    <div>
+    <div className="logo">
+       <h1 style={{cursor:'pointer'}}>Hacka</h1> <h1 id="host" style={{cursor:'pointer'}} >Host</h1>
+       <h5 style={{margin:'0px'}}>Learn.Build.Share</h5>
+       </div>
+       <div className="decription">
+           <h1>Discover the world of HACKATHON</h1>
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident?
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum eveniet nulla placeat error, fuga eius recusandae quidem ea quo corporis rem delectus? Sit inventore necessitatibus debitis cum numquam provident?  </p>
+       </div>
+
+    </div>
+  )
+}
+
+export default Discover
